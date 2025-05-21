@@ -107,7 +107,42 @@
                 <input id="state" name="state" type="text" value="SP" disabled>
               </div>
             </div>  
-            </fieldset>
+          </fieldset>
+
+          <fieldset class="gardian">
+            <legend>Informações do responsavél</legend>
+
+            <div class="input-wrapper">
+              <label for="gardian">Nome do responsável</label>
+              <input 
+                id="gardian" 
+                name="gardian"
+                type="text"
+                value="Miguel Roberto Alves">
+              <small>Principal responsável legal e contato de emergência</small>
+            </div>
+
+            <div class="input-wrapper">
+              <label for="phone">Telefone</label>
+              <input 
+              type="tel" 
+              id="phone"
+              name="phone"
+              placeholder="(71) 9 8376-5338">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="mail">E-mail</label>
+              <input 
+              type="email"
+              id="mail"
+              name="mail"
+              required>
+              <div class="error">
+                <img src="assets/icons/alert-circle.svg" alt="icone de alerta">
+                <span>insira um e-mail válido</span>
+              </div>
+            </div>
           </fieldset>
         </form>
       </div>
